@@ -91,4 +91,7 @@ mv prod/latin/NimbusMonoPS-Italic.woff prod/latin/NimbusMono-Italic.woff
 mv prod/latin/NimbusMonoPS-Bold.woff prod/latin/NimbusMono-Bold.woff
 mv prod/latin/NimbusMonoPS-BoldItalic.woff prod/latin/NimbusMono-BoldItalic.woff
 
+mv prod/all/Quivira.woff prod/all/Quivira-Regular.woff
+mv prod/latin/Quivira.woff prod/latin/Quivira-Regular.woff
+
 rm -rf "$temp_dir"

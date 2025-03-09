@@ -38,3 +38,4 @@ raw/LiberationSerif-Regular.ttf
 raw/LiberationSerif-Italic.ttf
 raw/LiberationSerif-Bold.ttf
 raw/LiberationSerif-BoldItalic.ttf
+raw/Quivira.otf
