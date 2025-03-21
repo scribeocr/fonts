@@ -17,6 +17,9 @@ This directory contains the "raw" fonts.  These are fonts downloaded from variou
 - Garamond
 	- Source: Google Fonts
 		- https://fonts.google.com/specimen/EB+Garamond
+- Gothic
+	- Source: URW Base 35 Fonts
+		- https://github.com/twardoch/urw-core35-fonts
 - Nimbus Sans
 	- Source: URW Base 35 Fonts
 		- https://github.com/twardoch/urw-core35-fonts
@@ -35,3 +38,8 @@ This directory contains the "raw" fonts.  These are fonts downloaded from variou
    - https://github.com/liberationfonts/liberation-fonts
 - Liberation Serif
    - https://github.com/liberationfonts/liberation-fonts
+- Quivira
+   - http://www.quivira-font.com/
+- Dingbats
+	- Source: URW Base 35 Fonts
+		- https://github.com/twardoch/urw-core35-fonts

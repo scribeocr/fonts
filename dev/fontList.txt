@@ -26,6 +26,10 @@ raw/NimbusMonoPS-Regular.otf
 raw/NimbusMonoPS-Italic.otf
 raw/NimbusMonoPS-Bold.otf
 raw/NimbusMonoPS-BoldItalic.otf
+raw/URWGothic-Book.otf
+raw/URWGothic-BookOblique.otf
+raw/URWGothic-Demi.otf
+raw/URWGothic-DemiOblique.otf
 raw/LiberationMono-Regular.ttf
 raw/LiberationMono-Italic.ttf
 raw/LiberationMono-Bold.ttf

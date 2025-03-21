@@ -54,6 +54,9 @@ do
     fi
 done < "dev/fontList.txt"
 
+## There is only one Dingbats font, so we process it separately.
+fontforge -quiet -lang=ff -c 'Open($1); Generate($2)' "$raw_fonts_dir/D050000L.otf" "$proc_fonts_dir/all/Dingbats.woff"
+
 ## Standardize font names to match [family]-[style].woff, as expected in the application.
 mv prod/all/P052-Roman.woff prod/all/Palatino-Regular.woff
 mv prod/all/P052-Italic.woff prod/all/Palatino-Italic.woff
@@ -90,6 +93,15 @@ mv prod/latin/NimbusMonoPS-Regular.woff prod/latin/NimbusMono-Regular.woff
 mv prod/latin/NimbusMonoPS-Italic.woff prod/latin/NimbusMono-Italic.woff
 mv prod/latin/NimbusMonoPS-Bold.woff prod/latin/NimbusMono-Bold.woff
 mv prod/latin/NimbusMonoPS-BoldItalic.woff prod/latin/NimbusMono-BoldItalic.woff
+
+mv prod/all/URWGothic-Book.woff prod/all/URWGothicBook-Regular.woff
+mv prod/all/URWGothic-BookOblique.woff prod/all/URWGothicBook-Italic.woff
+mv prod/all/URWGothic-Demi.woff prod/all/URWGothicBook-Bold.woff
+mv prod/all/URWGothic-DemiOblique.woff prod/all/URWGothicBook-BoldItalic.woff
+mv prod/latin/URWGothic-Book.woff prod/latin/URWGothicBook-Regular.woff
+mv prod/latin/URWGothic-BookOblique.woff prod/latin/URWGothicBook-Italic.woff
+mv prod/latin/URWGothic-Demi.woff prod/latin/URWGothicBook-Bold.woff
+mv prod/latin/URWGothic-DemiOblique.woff prod/latin/URWGothicBook-BoldItalic.woff
 
 mv prod/all/Quivira.woff prod/all/Quivira-Regular.woff
 mv prod/latin/Quivira.woff prod/latin/Quivira-Regular.woff
